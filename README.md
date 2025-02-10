@@ -26,3 +26,7 @@ The RIP/VICTORY Advanced BM RCON Tool is designed to improve upon the current Ad
 # Setup Page
 
 ![Check All](https://github.com/user-attachments/assets/b0fc650f-57ed-4e07-a3fc-69a1adc9feb4)
+
+Battlemetrics Token: https://www.battlemetrics.com/developers/token
+ 
+Steam API: https://steamcommunity.com/dev/apikey
