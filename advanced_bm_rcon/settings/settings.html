@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="settings.css" />
+        <title>Advanced BM RCON Settings</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>
+                <img src="../icons/riplogo.png" alt="Rust in Peace Logo" style="height: 50px; vertical-align: middle;" />
+                Advanced BM RCON
+                <img src="../icons/victory.png" alt="Victory Rust Logo" style="height: 50px; vertical-align: middle;" />
+            </h1>
+            <br />
+            <div class="form-group">
+                <label>BattleMetrics API Token</label>
+                <input type="password" id="BMToken" placeholder="" />
+            </div>
+            <div class="form-group">
+                <label>Steam API Token</label>
+                <input type="password" id="SteamToken" placeholder="" />
+            </div>
+            <br />
+            <div class="form-group">
+                <label>Arkan Violations</label>
+                <label class="switch">
+                    <input type="checkbox" id="Arkan" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Guardian Violations</label>
+                <label class="switch">
+                    <input type="checkbox" id="Guardian" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>RustAdmin Bans Link</label>
+                <label class="switch">
+                    <input type="checkbox" id="RustAdmin" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>ServerArmour Link</label>
+                <label class="switch">
+                    <input type="checkbox" id="ServerArmour" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>RustStats Link</label>
+                <label class="switch">
+                    <input type="checkbox" id="RustStats" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Rust in Peace Playtime</label>
+                <label class="switch">
+                    <input type="checkbox" id="RustInPeacePlaytime" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Victory Playtime</label>
+                <label class="switch">
+                    <input type="checkbox" id="VictoryPlaytime" />
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="button-group">
+                <button class="centered-button" id="save">Save</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Your servers</h2>
+            <br />
+            <div id="serverlist"></div>
+            <br />
+            <div class="button-group">
+                <button class="centered-button" id="refresh">Refresh</button>
+                <button class="centered-button" id="saveservers">Save</button>
+            </div>
+        </div>
+
+        <script src="settings.js"></script>
+    </body>
+</html>
